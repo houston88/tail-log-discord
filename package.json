@@ -1,0 +1,21 @@
+{
+  "name": "tail-log-discord",
+  "version": "1.0.0",
+  "description": "Tailing logs since 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint --fix ./*.js"
+  },
+  "author": "Houston Harris",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "@logdna/tail-file": "^3.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
